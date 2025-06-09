@@ -1,0 +1,34 @@
+.board-container {
+  height: 100vh;
+}
+
+.row {
+  height: 100%;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+
+.team-score {
+  font-size:84px;
+  font-weight: 700;
+}
+
+.team-name {
+  font-size: 36px;
+}
+
+.team.home {
+  background-color: #00FF85;
+}
+
+.team.away {
+  background-color: #38003c;
+}
